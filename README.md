@@ -68,6 +68,9 @@ All these requirements needs to be satisfied:
    
        http://localhost:8080/swagger-ui/index.html
 
+      
+      ![ScreenShot](https://github.com/pyramesh/recipe-manager/blob/master/swagger-ui-screenshot.png)
+
 ## Implementation details and assumptions
 
 1. Assumption : Since Many Recipes can contains many ingredients and many ingredients can be used for many recipes.
