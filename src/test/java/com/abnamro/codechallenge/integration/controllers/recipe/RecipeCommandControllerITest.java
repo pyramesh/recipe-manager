@@ -83,6 +83,7 @@ public class RecipeCommandControllerITest extends AbstractControllerIntegrationT
 
     @Test
     public void test_deleteRecipe_notFound() throws Exception {
+        recipeRepository.deleteAll();
         performDelete("/v1/recipes/1")
                 .andExpect(status().isNotFound());
     }

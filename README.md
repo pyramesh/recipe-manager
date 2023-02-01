@@ -78,8 +78,8 @@ All these requirements needs to be satisfied:
 4. Implemented exception handling (ControllerAdvice), logging (Sl4j) and transaction management.
 5. Total 79 test cases have been implemented. 
 6. And the code coverage is around 80%.
-7. I tried implemented as much as production ready, But few things still could have been improved like
-   bean validations and testcases. 
+7. I tried implemented as much production ready as I could, But few things still could have been improved like bean
+   validations and testcases. 
 
 
 
